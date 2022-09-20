@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Coiny&display=swap" rel="stylesheet">   
+    <title>TO-DO-LIST</title>
+</head>
+<body>
+    <div class="main">
+        <h1>오늘의 할 일</h1>
+        <form>
+            <input type="text" placeholder="할 일을 추가해보세요." id="todo">
+            <button type="submit" id="addBtn"><b>+</b></button>
+        </form>
+        <div class="todolist" id="toDoList"><!-- 입력값이 생기면 입력될 공간-->
+            <ul>                
+            </ul>
+            <a id="clearAll">전체 삭제</a>
+        </div>
+    </div>
+    <script type="text/javaScript" src="main.js"></script>
+</body>
+</html>
